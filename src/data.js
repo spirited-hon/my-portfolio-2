@@ -36,25 +36,45 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+      "I am extremely grateful for the exceptional work done by Arti. Her introduction of responsive UI web pages and key UX features greatly enhanced our business traffic, while their improvements in website accessibility significantly. Her hardwork and dedication is admirable",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+    name: "Jyothi Nagarajan",
+    company: "Project Manager at Accenture Pvt. Ltc.",
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "Arti significantly improved team productivity and operational efficiency through agile leadership, achieving impressive results in on-time delivery and customer satisfaction while spearheading complex projects and team growth.",
+    image: "./nileshkr.jpg",
+    name: "Nilesh Kumar",
+    company: "Vice President at Sayurbox",
+  },
+];
+
+export const education = [
+  {
+    university: "University of Texas at Dallas",
+    degree: "Master of Science",
+    image: "./UTD logo.jpeg",
+    major: "Information Technology and Management",
+    duration: "2022 - 2024",
+  },
+  {
+    university: "Guru Gobind Singh Indraprastha University",
+    degree: "Bachelor of Technology",
+    image: "./ipulog.png",
+    major: "Computer Science and Enginnering",
+    duration: "2013 - 2014",
   },
 ];
 
 export const skills = [
-  "JavaScript",
+  "Angular",
   "React",
-  "Next.js",
-  "Node",
+  "Vue.js",
+  "SQL",
   "GraphQL",
-  "Material UI",
+  "Node.js",
+  "Tableau",
+  "Jira",
+
 ];
