@@ -1,4 +1,5 @@
 import React from "react";
+import swal from "sweetalert";
 export default function Contact() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
@@ -19,8 +20,11 @@ export default function Contact() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => alert("Message sent!"))
+      .then(() => swal("You submitted your request"))
       .catch((error) => alert(error));
+    setEmail("");
+    setMessage("");
+    setName("");
   }
 
   return (
