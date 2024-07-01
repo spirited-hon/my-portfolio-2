@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Royal Bank of Scotland",
+    subtitle: "Mortgage Page",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      " Helped  banks across the world continuously drive innovation through technology, developed mortgage page , designed overdraft. ",
+    image: "./rbs-gif.gif",
+    link: "https://www.rbs.co.uk",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Natwest",
+    subtitle: "overdraft Page",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
+      "Worked on launching a new appointment booking service, replacing multiple systems with a single, real-time booking platform accessible to colleagues and directly to customers. ",
+    image: "./hero-natwest.gif",
+    link: "https://www.natwest.com/mortgages.html?intcam=HP-TTB-DEF-Default",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Apporchid",
+    subtitle: "AI Chatbots",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Helped company operationalize AI accross the Apporchid platform",
+    image: "./apporchid.png",
+    link: "https://youtu.be/ndAa9uSEKIg",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Sayurbox",
+    subtitle: "Consumer App and Warehouse Management portal",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://jsbootcamp.com",
+      "Developed portal for B2B and B2C i.e. warehouse management portal and consumer app",
+    image: "./sayurbox-gif.png",
+    link: "https://www.linkedin.com/company/sayurboxofficial/posts/?feedView=all",
   },
 ];
 
@@ -39,7 +39,7 @@ export const testimonials = [
       "I am extremely grateful for the exceptional work done by Arti. Her introduction of responsive UI web pages and key UX features greatly enhanced our business traffic, while their improvements in website accessibility significantly. Her hardwork and dedication is admirable",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
     name: "Jyothi Nagarajan",
-    company: "Project Manager at Accenture Pvt. Ltc.",
+    company: "Project Manager at Accenture.",
   },
   {
     quote:
@@ -54,7 +54,7 @@ export const education = [
   {
     university: "University of Texas at Dallas",
     degree: "Master of Science",
-    image: "./UTD logo.jpeg",
+    image: "./utdlogo.jpg",
     major: "Information Technology and Management",
     duration: "2022 - 2024",
   },
@@ -63,7 +63,7 @@ export const education = [
     degree: "Bachelor of Technology",
     image: "./ipulog.png",
     major: "Computer Science and Enginnering",
-    duration: "2013 - 2014",
+    duration: "2009-2013",
   },
 ];
 
@@ -76,5 +76,9 @@ export const skills = [
   "Node.js",
   "Tableau",
   "Jira",
-
 ];
+
+export const experience = {
+  text: "Total experience",
+  number: "8",
+};
