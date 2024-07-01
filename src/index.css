@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.d-inline-block{
+    display: inline-block !important    ;
+}
+
+.outer{
+    display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+.grey{
+    color: #b2b2b2;
+}
+.center{
+    text-align :center;
+}
+.inline{
+    display: inline-block;
+}
